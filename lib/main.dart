@@ -25,22 +25,21 @@ class MyApp extends StatelessWidget {
               ),
               // SizedBox(height: 20.0,),
               Container(
-                color: Colors.brown,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    // Container(
-                    //   height: 100.0,
-                    //   width: 100.0,
-                    //   color: Colors.yellow,
-                    //   child: Text('Mr. Barzy 3'),
-                    // ),
-                    // Container(
-                    //   height: 100.0,
-                    //   width: 100.0,
-                    //   color: Colors.green,
-                    //   child: Text('Mr. Barzy 3'),
-                    // ),
+                    Container(
+                      height: 100.0,
+                      width: 100.0,
+                      color: Colors.yellow,
+                      child: Text('Mr. Barzy 3'),
+                    ),
+                    Container(
+                      height: 100.0,
+                      width: 100.0,
+                      color: Colors.green,
+                      child: Text('Mr. Barzy 3'),
+                    ),
                   ],
                 ),
               ),
